@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>CiTIM Grupo XB</title>
-    <link rel="stylesheet" href="stem.css"/>
+    <link rel="stylesheet" href="css/stem.css"/>
 
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <script src="js/codigo.js"></script>
-    <script>
+    <?php
         function calcula_masa(){
-            var constante = 6.67430E-11;
-            var distancia = 3.84E8;
-            var periodo = 2360448;
-            var primeraParteA = 4 * (Math.PI * Math.PI);
-            var segundaParteA = distancia * distancia * distancia;
-            var parteA = primeraParteA * segundaParteA;
-            var segundaParteB = periodo * periodo;
-            var parteB = constante * segundaParteB;
-            var masa = parteA / parteB;
-            var d = document.getElementById("resultadoA");
-            d.innerHTML = "La tierra tiene una masa de: " + masa + " kg";
+          $pi = 3.141592;
+          $constante = 6.67430E-11;
+          $distancia = 3.84E8;
+          $periodo = 2360448;
+          $primeraParteA = 4 * (pi * pi);
+          $segundaParteA = distancia * distancia * distancia;
+          $parteA = primeraParteA * segundaParteA;
+          $segundaParteB = periodo * periodo;
+          $parteB = constante * segundaParteB;
+          $masa = parteA / parteB;
+          return $masa;
         }
-    </script>
+    ?>
 </head>
 <body>
   <section class="wrapper">
