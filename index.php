@@ -57,7 +57,7 @@
         <h2>Resultado:</h2>
         <div id="resultadoA"></div>
         <?php
-          print "<h1> La tierra tiene una masa de:".calcula_masa."kg</h1>";
+          print "<h1> La tierra tiene una masa de:".calcula_masa()."kg</h1>";
         ?>
       </section>
     </section>
