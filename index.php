@@ -52,11 +52,13 @@
         <h2>Solución</h2>
         <p>La masa de la Tierra es:<br>
         Masa de la tierra = (4π^2 / G) * (r^3 / T^2)
-        <button onclick="calcula_masa();">Presiona para calcular</button>
       </section>
       <section class="resultado">
         <h2>Resultado:</h2>
         <div id="resultadoA"></div>
+        <?php
+          print "<h1> La tierra tiene una masa de:".calcula_masa."kg</h1>";
+        ?>
       </section>
     </section>
   </section>
