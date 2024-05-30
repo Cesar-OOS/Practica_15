@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>CiTIM Grupo XB</title>
-    <link rel="stylesheet" href="css/stem.css"/>
+    <link rel="stylesheet" href="stem.css"/>
 
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <script src="js/codigo.js"></script>
     <?php
         function calcula_masa(){
           $pi = 3.141592;
